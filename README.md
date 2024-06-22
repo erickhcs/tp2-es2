@@ -1,4 +1,4 @@
-# tp1-es2
+# tp2-es2
 
 Integrantes:
 Erick Henrique Campolina da Silva e Gustavo Barros Borba Perdigão
