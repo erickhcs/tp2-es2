@@ -1,7 +1,7 @@
 # tp2-es2
 
-Integrantes:
-Erick Henrique Campolina da Silva e Gustavo Barros Borba Perdigão
+Nome: Erick Henrique Campolina da Silva
+Matrícula: 2016120309
 
 O sistema é um gerenciador de dados de uma universidade, onde é possível cadastrar cursos e estudantes.
 Também é possível matricular alunos nos respectivos cursos.
