@@ -28,3 +28,9 @@ class DB:
         query = Query()
 
         table.update(data, query[field] == fieldData)
+
+    def clear(self):
+        self.db.close()
+        if os.path.exists(DB_PATH):
+            os.remove(DB_PATH)
+

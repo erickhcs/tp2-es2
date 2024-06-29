@@ -138,12 +138,12 @@ class StudentManagement(cmd.Cmd):
             print(f"Error: {e}")
 
     def do_update_student_name(self, line):
-        'Update student name: do_update_student_name <registration>;<student_new_name>'
+        'Update student name: update_student_name <registration>;<student_new_name>'
         try:
             splitted_entry = line.split(";")
 
             if len(splitted_entry) != 2:
-                print("do_update_student_name parameters are incorrect. You should pass values separated by semicolon: do_update_student_name <registration>;<student_new_name>")
+                print("update_student_name parameters are incorrect. You should pass values separated by semicolon: update_student_name <registration>;<student_new_name>")
                 return
             
             registration = splitted_entry[0]
