@@ -3,6 +3,9 @@ class Credit:
         self.balance = balance
 
     def add_credit(self, amount):
+        if (amount < 0):
+            print("Cannot add negative credit!")
+            return
         self.balance += amount
         print(f"Credit of ${amount:.2f} added. Current balance: ${self.balance:.2f}")
 
