@@ -11,7 +11,7 @@ class TestValidate(unittest.TestCase):
 
   def testEmptyStringSuccess(self):
     try:
-      Validate.digit(fieldNameMock, 'test')
+      Validate.digit(fieldNameMock, '123')
     except ValueError:
       self.fail("empty_string() raised error unexpectedly!")
 
